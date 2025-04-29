@@ -71,26 +71,30 @@ position: fixed;
     }
 
 .sugerowaneprodukty {
-    margin-left: 0;
+    margin-top: 10%;
     align-self: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    display: flex;
+overflow-x: auto;
+    justify-content: center;
+    /* grid-template-columns: repeat(auto-fit, minmax(25%, 1fr)); */
     padding: 5%;
     color: var(--main-fourth);
     background-color: var(--main-second);
 padding: 5%;
-max-width: 80%;
+width: 80%;
 border-radius: 8em;
 gap: 3em; 
+flex-direction: column;
    
     }
 
     .sugerowaneprodukty > div {
         display: flex;
-    flex-direction: column;
+        flex-direction: row;
+    margin-bottom: 1em;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+    text-align: left;
     padding: 10%;
     border-radius: 8em;
     background-color: var(--main-third);
@@ -103,8 +107,27 @@ gap: 3em;
     margin: 0;
     }
 
+.sugerowaneprodukty .cena {
+margin-left: auto;
+text-align: right;
+float: right;
+font-size: xx-large;
+}
+
+
+    .sugerowaneprodukty > div > h2 {
+        padding-bottom: 1.5em;
+        margin: 0;
+        font-size: xx-large;
+        text-align: center;
+        
+        
+        }
+
     .sugerowaneprodukty > div:hover {
         background-color: var(--main-fourth);
         color: var(--main-second);
         }
+
+
 
