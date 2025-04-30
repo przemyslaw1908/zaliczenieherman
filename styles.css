@@ -104,7 +104,7 @@ body {
     background-color: var(--main-second);
     padding: 5%;
     max-width: 80%;
-    border-radius: 8em;
+    border-radius: 2em;
     gap: 3em;
 
 }
@@ -145,7 +145,7 @@ body {
     background-color: var(--main-second);
     padding: 5%;
     width: 80%;
-    border-radius: 8em;
+    border-radius: 2em;
     gap: 3em;
     flex-direction: column;
 
