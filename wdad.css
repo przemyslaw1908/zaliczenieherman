@@ -1,8 +1,8 @@
 :root{
-    --main-first: #F4F6FF;
-    --main-second: #F3C623;
-    --main-third: #EB8317;
-    --main-fourth: #10375C;
+    --main-first: white;
+    --main-second: #3E5641;
+    --main-third: #888888;
+    --main-fourth: white;
 }
 
 
@@ -70,7 +70,7 @@ position: fixed;
         color: var(--main-fourth);
     }
 
-.sugerowaneprodukty {
+.produktynasubstronie {
     margin-top: 10%;
     align-self: center;
     display: flex;
@@ -88,7 +88,7 @@ flex-direction: column;
    
     }
 
-    .sugerowaneprodukty > div {
+    .produktynasubstronie > div {
         display: flex;
         flex-direction: row;
     margin-bottom: 1em;
@@ -102,12 +102,12 @@ flex-direction: column;
 
         }
 
-.sugerowaneprodukty > div > p {
+.produktynasubstronie > div > p {
     padding: 0;
     margin: 0;
     }
 
-.sugerowaneprodukty .cena {
+.produktynasubstronie .cena {
 margin-left: auto;
 text-align: right;
 float: right;
@@ -115,7 +115,7 @@ font-size: xx-large;
 }
 
 
-    .sugerowaneprodukty > div > h2 {
+    .produktynasubstronie > div > h2 {
         padding-bottom: 1.5em;
         margin: 0;
         font-size: xx-large;
@@ -124,7 +124,7 @@ font-size: xx-large;
         
         }
 
-    .sugerowaneprodukty > div:hover {
+    .produktynasubstronie > div:hover {
         background-color: var(--main-fourth);
         color: var(--main-second);
         }
